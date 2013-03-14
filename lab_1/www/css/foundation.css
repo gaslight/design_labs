@@ -1236,7 +1236,7 @@ blockquote p {
   border-color: #2284a1;
   color: white; }
   .button:hover, .button:focus {
-    background-color: #2284a1; }
+    background-color: #ccc; }
   .button:hover, .button:focus {
     color: white; }
   .button.secondary {

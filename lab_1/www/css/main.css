@@ -160,26 +160,46 @@ p.lead {
 
 }
 
+/*button:hover{
+    background-color: #aaa; 
+    MAKE ME WORK
+}*/ 
+
 img.slideshow{
     margin-left: 18px
 }
 
-/*OVerview*/
+/*Overview*/
 
 h2{
     font-size: 1.5em;
     font-weight: 400;
 }
 
-h2.overview {
-    float: left;
-    display: inline;
-    color: blue;
+.overview{
+    margin: 1.5em 0;
 }
 
-p.sub {
-    font-size: .85em;
+h2.about {
+    float: left;
+    width: 70%;
+/*    margin-left: .5em;*/
     text-align: center;
+}
+
+img.icon {
+    display: inline-block;
+    float: left;
+    margin-top: .25em;
+    text-align: center;
+}
+
+
+p.sub {
+    font-size: .9em;
+    text-align: center;
+    line-height: 1.3;
+    padding: 0 2.85em;
 }
 
 
