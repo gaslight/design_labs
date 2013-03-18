@@ -15,7 +15,7 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+    color: #353535;
 }
 
 body {
@@ -45,10 +45,11 @@ body {
 
 hr {
     display: block;
-    height: 1px;
+    height: 3px;
     border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
+    border-top: 6px solid #d6d5d5;
+    margin-top: -.5em;
+    margin-bottom: 1.5em;
     padding: 0;
 }
 
@@ -100,7 +101,7 @@ nav{
 
 .nav a{
     font-size: 1.5em;
-    color: black;
+    color: #353535;
     float: left;
     padding-top: .65em;
     margin-right: 2.75em;
@@ -202,11 +203,42 @@ p.sub {
     padding: 0 2.85em;
 }
 
+/*Main*/
 
+.feature{
+    border: 5px solid #bcbcbc;
+    margin-top: .8em;
+    margin-bottom: 4em;
+}
 
+p{
+    font-size: .75em;
+}
 
+.sidebar{
+    border: 5px solid #bcbcbc; 
+    text-align: center;
+    display: block;
+    margin: .75em 0; 
+}
 
+a.sidebarLabel {
+    font-weight: bold;
+    font-size: .75em;
+    color: blue;
+    margin-right: auto;
+}
 
+/*Footer*/
+footer{
+    margin: 2em 0;
+}
+
+h3{
+  font-size: .9em;
+  text-align: center;
+  font-weight: 400;  
+}
 
 
 
