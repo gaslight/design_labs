@@ -47,7 +47,7 @@ hr {
     display: block;
     height: 3px;
     border: 0;
-    border-top: 6px solid #d6d5d5;
+    border-top: 5px solid #d6d5d5;
     margin-top: -.5em;
     margin-bottom: 1.5em;
     padding: 0;
@@ -224,8 +224,8 @@ p{
 
 a.sidebarLabel {
     font-weight: bold;
-    font-size: .75em;
-    color: blue;
+    font-size: .9em;
+    color: #0065ba;
     margin-right: auto;
 }
 
