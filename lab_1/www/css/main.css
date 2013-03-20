@@ -161,10 +161,11 @@ p.lead {
 
 }
 
-/*button:hover{
-    background-color: #aaa; 
-    MAKE ME WORK
-}*/ 
+.button:hover {
+    background: #61c904;
+    border: 1px solid #3a7c00;
+}
+
 
 img.slideshow{
     margin-left: 18px
