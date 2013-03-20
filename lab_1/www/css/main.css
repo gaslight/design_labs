@@ -185,7 +185,6 @@ h2{
 h2.about {
     float: left;
     width: 70%;
-/*    margin-left: .5em;*/
     text-align: center;
 }
 
@@ -220,15 +219,22 @@ p{
     border: 5px solid #bcbcbc; 
     text-align: center;
     display: block;
-    margin: .75em 0; 
+    margin-top: 2em;
+    margin-bottom: .75em; 
 }
 
 a.sidebarLabel {
     font-weight: bold;
     font-size: .9em;
     color: #0065ba;
-    margin-right: auto;
+    text-align: center;
+    padding: 0 7em;
 }
+
+a.sidebarLabel:hover{
+    color: blue; 
+}
+
 
 /*Footer*/
 footer{
